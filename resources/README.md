@@ -53,8 +53,8 @@ To start a new game, make a POST request to `/new`. You will need to include
 your `name` as a field in the request. In return, you'll get a string 
 that represents the ID of your new game. You'll need it to keep playing.
 
-```$ curl --data "name=ponies" minesweeper.nm.io/new; echo
-48088a80-85c9-43c8-892f-80d11c22d2d5```
+  $ curl --data "name=ponies" minesweeper.nm.io/new; echo
+  48088a80-85c9-43c8-892f-80d11c22d2d5
 
 You can also include a `version` number as part of your request (integers only, 
 please). These differentiate your submissions: only games with the highest 
